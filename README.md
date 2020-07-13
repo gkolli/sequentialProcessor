@@ -12,6 +12,6 @@ The ALU designed is an 8-bit circuit, with operations on two 8-bit binary intege
 
 The ALU was implemented in Simulink, a MATLAB package used for both designing and simulating systems. Simulink was used to create the digital circuits, which were then modeled under various input conditions and then verified with the scope. Simulink's HDL Coder generated Verilog code from the model; This was used to test the system with Xilinx FPGA, on a ZedBoard platform. The various LEDs on the ZedBoard would light corresponding to the output value of the ALU. 
 
-This project was useful, as a foundational component of processors was explored, then designed and implemented. Using digital logic, an 8-bit ALU was developed, demonstrating the power of combinational logic and sequential processing to perform arithemtic and logic manipulation. It is important to note that this same system can be scaled up, leading to the 32-bit and 64-bit architecture that is commonplace today.    
+This project was useful, as a foundational component of processors was explored, then designed and implemented. Using digital logic, an 8-bit ALU was developed, demonstrating the power of combinational logic and sequential processing to perform arithemtic and logic manipulation. It is important to note that this same system can be scaled up, leading to the 32-bit and 64-bit architectures that are commonplace today.    
 
 
